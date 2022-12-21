@@ -1,0 +1,58 @@
+n  =  float (input ('digite um valor :'))
+print (n)
+
+
+digite um valor :2
+2.0
+
+
+n = bool (input('digite um valor :'))
+print (n)
+
+
+
+
+#numero valor flutuante 
+n  =  float (input ('digite um valor :'))
+print (n)
+
+se as variaveis receber nenhum valor é false , se receber algum valor é true . 
+
+#para saber se o valor é verdadeiro ou falso 
+n = bool (input('digite um valor :'))
+print (n)
+_________///////////////_________///////////_________//////_________
+usando (n.isnumeric()) para saber se o valor é numerico se for é verdadeiro  se for caracter é  falso.
+
+n = input('digite um valor :')
+print (n.isnumeric())
+
+#depois que executou e colocou numero :
+digite um valor :5
+True
+
+#depois que digitou e colocou letra
+
+digite um valor :2
+2.0
+digite um valor :r
+False
+
+_______________________________///////////////////////////////___________________________________________
+usando (n.isupper()) para saber se oque esta sendo digitado tem letras maiusculas
+ se for maiusculas é  verdadeiro  se for minusculas é  falso.
+
+ #para saber se o valor digitado só esta com letras maiusculas
+n = input('digite uma letra  :')
+print (n.isupper())
+
+#depois que digitou e colocou letra minusculas
+
+digite uma letra :v
+False
+
+
+#depois que digitou e colocou letra maiusculas 
+digite uma letra :F
+True
+_______________________________///////////////////////////////___________________________________________

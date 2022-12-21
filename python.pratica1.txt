@@ -1,0 +1,91 @@
+python pratica1
+sempre que for digitar um texto digite print ('ola','mundo!'),tanto faz ampas simples ou duplas .
+para realizar uma soma fará a seguinte operação nunca ultilizar aspas nos numeros
+pois aspas sao usadas em texto  ,mensagens sao primordialmente criadas para exibir mensagem na tela , numeros primordialmente para realizar calculos nao usar aspas para operação de calculos .
+
+sem "" '' print (7+4) =11
+com '' "" print ('7'+'4') =74
+resulto com '' deu 74 pois o interpretador entende me mostre 7 em seguida mostre 4
+
+------------------////////////////////-------------------------------------------
+
+para aparecer mensagem usando print
+se eu fizer print ('ola' + 5) ira dar um erro 
+se eu fizer print ('ola',5) ira dar certo 
+
+tem horas que o + vai funcionar melhor e tem hora que a ,virgula irá funcionar melhor .
+__________________________///////////_____________________________________________
+se eu quiser deixar algo mais variavel irei ter que usar variaveis 
+variavel é como se fosse um objeto,objeto é um pouco mais que uma variavel ,
+variaveis sao espaços na memoria aonde abre um espaço para abrir algo  .
+exemplo irei registrar o  de uma pessoa:
+nome 
+idade 
+peso 
+obs:no python sempre escreva de letras minusculas agora nos que esta entre aspas pode usar letras maiusculas . 
+________________________////////__________________________________________________
+toda variavel pode receber valores esse recebe é simbolizado pelo sinal de =
+exemplo :
+nome = 'thiago'
+idade = '18'
+peso = '78'
+#para mostrar essa informação na tela irei usar uma função print :
+nome = 'thiago'
+idade = '18'
+peso = '78'
+print (nome,idade,peso)
+thiago 18 78
+
+___________________________________////////////////_______________________________
+da forma que eu fiz a cima o nome sempre sera thiago ,idade sempre 18,peso sempre 78 , e se eu quiser criar uma interatividade com o usuario ?. 
+quer o perguntar os dados dos usuarios  e eles responderem , usarei uma função especifica input :
+nome = input ('qual é seu nome ?:')
+idade = input  ('qual é sua idade ?:')
+peso = input ('quantos voce pesa ?:')
+print (nome,idade,peso)
+
+nome = input ('qual é seu nome ?:')
+oque aparecera:qual é seu nome ?:th
+
+idade = input  ('qual é sua idade ?:')
+oque aparecera: qual é sua idade ?:18
+
+peso = input ('quantos voce pesa ?:')
+oque aparecera: quantos voce pesa ?:78
+
+print (nome,idade,peso)
+th 18 78
+_________________________________////////////////////////________________________
+percebese o seguinte poxa se quiser fazer de novo , terei que digitar o comando dnv, pois irei criar um script especifico .
+oque aparecera:qual é seu nome ?:th
+oque aparecera: qual é sua idade ?:18
+
+oque aparecera: quantos voce pesa ?:78
+
+print (nome,idade,peso)
+th 18 78
+___________________/////////______________________________///////////////_________
+
+Desafio 1 : crie um script que leia o nome de uma pessoa e mostre uma mensagem de boas vindas conforme o valor digitado.
+
+nome = input ('digite seu nome ! :')
+print ('olá!',nome,'seja bem vindo!')      
+
+digite seu nome !: thiago
+olá! thiago seja bem vindo!
+______________________________________________////////////////____________________
+Desafio 2 : crie um script python que leia o dia o mes eo ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada.
+
+dia = input ('dia =')
+mes = input ('mes = ')
+ano = input ('ano = ')
+print ('voce nasceu no dia', dia, 'de',ano,'.correto?')
+
+
+dia =15
+mes = julho
+ano = 2004
+voce nasceu no dia 15 de 2004 .correto?
+________________________________//////////////____________________________________ 
+
+

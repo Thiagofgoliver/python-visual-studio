@@ -1,0 +1,76 @@
+tipos primitivos
+toda linguagem de programação trabalha com 4 tipos primitivos python ate tem mais 
+tipos irei mostrar os 4 fundamentais
+
+int numeros inteiro
+float: armazena números com ponto flutuante (reais)
+bool:True false   valor  verdadeiro falso sempre lestras maiusculas
+str:palavras tudo que é mensagem entre '' "ola"
+
+fazer um calculo
+
+antes do input irei adicionar um tipo primitivo int "numero inteiro"
+
+ n1 = int (input ('digite um numero '))
+ n2 = int (input ('digite mais um numero '))
+ S=n1+N2
+
+print ('a soma vale',s)
+
+maneira diferente de fazer print
+
+print ('soma vale {}'.format (s))
+
+dentro do parentes sera .format (aqui dentro vou colocar oque ira aparecer dentro da {} )) 
+///////////////////////--------------------------/////////////////////////////////////////
+
+colocando em pratica:
+usar esse comando para ver que tipo é da variavel, constou string por toda variavel tem que ser especificada
+quando for ultilizada, no caso na frente da variavel coloquei int e abri e coloquei input e fechei parentes . 
+
+
+n1 = int (input ('digite um valor: '))
+print(type(n1))
+
+digite um valor: 1
+<class 'int'>
+
+
+n1 = input ('digite um valor: ')
+ constrou valor string por que nao usei int, print(type(n1))
+  # no caso o numero <class 'str'>
+/////////----------------------------------------//////////////////////////////////////////////////////////
+  n1 = int (input ('digite um valor: '))
+n2 = int (input ('digite um valor: '))
+s =n1+n2
+print('a soma vale', s)
+
+#oque aparece depois da executar 
+digite um valor: 4
+digite um valor: 4
+a soma vale 8
+
+///////-----------------//////////////////////
+
+
+
+n1 = int (input ('digite um valor: '))
+n2 = int (input ('digite um valor: '))
+s =n1+n2
+print('a soma entre',n1,'e',n2, 'vale', s)
+
+#oque aparece depois da executar 
+digite um valor: 1
+digite um valor: 2
+a soma entre 1 e 2 vale 3
+________________////////////////////////_________________________
+só que é muito  os abre " e feixa " print de outra formas
+
+print('a soma entre {0} e {1} vale {2}'.format (n1,n2,s))
+
+
+
+
+
+
+
